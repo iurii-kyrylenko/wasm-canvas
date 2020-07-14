@@ -2,10 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello wasm-pack!</title>
+    <title>wasm-canvas</title>
+    <style>
+      #canvas {
+        border-style: solid;
+        border-color: lightgrey;
+        border-width: 1px;
+      }
+    </style>
   </head>
   <body>
-    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <canvas id="canvas"></canvas>
     <script src="./bootstrap.js"></script>
   </body>
 </html>
